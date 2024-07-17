@@ -7,12 +7,14 @@ function App() {
   return (
     <>
       <div className="card">
+        <h1> Page counter :</h1>
         <button onClick={() => setCount((count) => count + 1)}>
           count is {count}
         </button>
-        <p>
-          Edit <code>src/App.jsx</code> and save to test HMR
-        </p>
+        <button onClick={() => setCount(0)}>Reset</button>
+       <p>
+       hi this is a simple counter app using react 
+       </p>
       </div>
     </>
   );
